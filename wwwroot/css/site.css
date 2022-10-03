@@ -10,11 +10,19 @@ html {
 
 html {
   position: relative;
-  min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+header {
+  height: 60px;
+}
+
+main {
+  height: calc(100vh - 60px - 60px);
+  overflow-y: auto;
+}
+
+footer {
+  height: 60px;
 }
 
 .card-custom{
