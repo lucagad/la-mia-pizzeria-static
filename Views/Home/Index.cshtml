@@ -18,22 +18,33 @@
     
     <h1>Le nostre Pizze</h1>
     
-    <div class="card-container d-flex justify-content-center flex-wrap">
-        
-        @foreach( Pizza pizza in listaPizze)
-        {
-            <div class="card card-custom m-2">
-                <img class="card-img-custom card-img-top" src="@pizza.ImgUrl" alt="@pizza.Name">
-                <div class="card-body">
-                    <h4 class="card-title">@pizza.Name</h4>
-                    <h5 class="card-text">@pizza.Price €</h5>
-                    <p class="card-text">@pizza.Description</p>
-                    <a href="#" class="btn btn-primary">Maggiori Info</a>
-                </div>
-            </div>
-        }
-    </div>
+    <table class="table">
+      <thead class="thead-light">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Miniatura</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Prezzo</th>
+        <th scope="col">Descrizione</th>
+        <th scope="col">Azioni</th>
+      </tr>
+      </thead>
+      
+      <tbody>
+      @foreach (Pizza pizza in listaPizze)
+      {
+          <tr>
+              <th scope="row">ID</th>
+              <td><img class="table-img-custom" src="@pizza.ImgUrl" alt="@pizza.Name"></td>
+              <td>@pizza.Name</td>
+              <td>@pizza.Price €</td>
+              <td>@pizza.Description</td>
+              <td>Azioni</td>
+          </tr>
+      }
+
+      </tbody>
+    </table>
     
-   
 </div>
 

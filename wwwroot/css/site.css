@@ -31,7 +31,8 @@ footer {
   flex-shrink: 1;
 }
 
-.card-img-custom{
-  height: 250px;
+.table-img-custom{
+  height: 50px;
+  width: 50px;
 }
 

@@ -5,11 +5,9 @@
     <projectFile profileName="la_mia_pizzeria_static">la-mia-pizzeria-static.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872a6a02-ea7d-4e38-9077-e21d64f88bc7" name="Changes" comment="Esercizi 4 - 6">
+    <list default="true" id="872a6a02-ea7d-4e38-9077-e21d64f88bc7" name="Changes" comment="Modificato Layout">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.la-mia-pizzeria-static/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.la-mia-pizzeria-static/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Esercizi/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Esercizi/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +18,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/lucagaddini/Desktop/Boolean Carrers/001 Corso .NET Experis/001 Progetti C#/la-mia-pizzeria-static/Views/Esercizi/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/lucagaddini/Desktop/Boolean Carrers/001 Corso .NET Experis/001 Progetti C#/la-mia-pizzeria-static/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/lucagaddini/Desktop/Boolean Carrers/001 Corso .NET Experis/001 Progetti C#/la-mia-pizzeria-static/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/lucagaddini/Desktop/Boolean Carrers/001 Corso .NET Experis/001 Progetti C#/la-mia-pizzeria-static/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/lucagaddini/Desktop/Boolean Carrers/001 Corso .NET Experis/001 Progetti C#/la-mia-pizzeria-static/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
@@ -92,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664797941148</updated>
-      <workItem from="1664797945126" duration="9784000" />
+      <workItem from="1664797945126" duration="10471000" />
     </task>
     <task id="LOCAL-00001" summary="Inizializzazione Repo">
       <created>1664797976623</created>
@@ -129,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664808466735</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modificato Layout">
+      <created>1664809382821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664809382821</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +162,7 @@
     <MESSAGE value="Aggiunte immagini" />
     <MESSAGE value="Esercizi 1-3" />
     <MESSAGE value="Esercizi 4 - 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Esercizi 4 - 6" />
+    <MESSAGE value="Modificato Layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificato Layout" />
   </component>
 </project>
