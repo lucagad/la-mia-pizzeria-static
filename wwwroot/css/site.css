@@ -16,3 +16,14 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.card-custom{
+  width: 18rem;
+  height: 100%;
+  flex-shrink: 1;
+}
+
+.card-img-custom{
+  height: 250px;
+}
+

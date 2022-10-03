@@ -4,9 +4,9 @@
 
     List<Pizza> listaPizze = new List<Pizza>();
 
-    Pizza Pizza1 = new Pizza("Pizza Margherita", "Pizza con Pomodoro e Mozzarella", "..", 6);
-    Pizza Pizza2 = new Pizza("Pizza Wustel", "Pizza con Pomodoro, Mozzarella e Wustel", "..", 8);
-    Pizza Pizza3 = new Pizza("Pizza 4 Stagioni", "Pizza con Pomodoro, Mozzarella, Carciofini, Funghi, Olive e Prosciutto Cotto", "..", 9);
+    Pizza Pizza1 = new Pizza("Pizza Margherita", "Pizza con Pomodoro e Mozzarella", "/img/pizza_margherita.jpg", 6);
+    Pizza Pizza2 = new Pizza("Pizza Wurstel", "Pizza con Pomodoro, Mozzarella e Wurstel", "/img/pizza_wurstel.jpg", 8);
+    Pizza Pizza3 = new Pizza("Pizza 4 Stagioni", "Pizza con Pomodoro, Mozzarella, Carciofini, Funghi, Olive e Prosciutto Cotto", "/img/pizza_quattro_stagioni.jpg", 9);
 
     listaPizze.Add(Pizza1);
     listaPizze.Add(Pizza2);
@@ -22,8 +22,8 @@
         
         @foreach( Pizza pizza in listaPizze)
         {
-            <div class="card m-2" style="width: 18rem;">
-                <img class="card-img-top" src="@pizza.ImgUrl" alt="@pizza.Name">
+            <div class="card card-custom m-2">
+                <img class="card-img-custom card-img-top" src="@pizza.ImgUrl" alt="@pizza.Name">
                 <div class="card-body">
                     <h4 class="card-title">@pizza.Name</h4>
                     <h5 class="card-text">@pizza.Price €</h5>
