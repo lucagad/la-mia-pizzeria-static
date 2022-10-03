@@ -1,8 +1,39 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    //Layout = null;
+
+    List<Pizza> listaPizze = new List<Pizza>();
+
+    Pizza Pizza1 = new Pizza("Pizza Margherita", "Pizza con Pomodoro e Mozzarella", "..", 6);
+    Pizza Pizza2 = new Pizza("Pizza Wustel", "Pizza con Pomodoro, Mozzarella e Wustel", "..", 8);
+    Pizza Pizza3 = new Pizza("Pizza 4 Stagioni", "Pizza con Pomodoro, Mozzarella, Carciofini, Funghi, Olive e Prosciutto Cotto", "..", 9);
+
+    listaPizze.Add(Pizza1);
+    listaPizze.Add(Pizza2);
+    listaPizze.Add(Pizza3);
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    
+    <h1>Le nostre Pizze</h1>
+    
+    <div class="card-container d-flex justify-content-center flex-wrap">
+        
+        @foreach( Pizza pizza in listaPizze)
+        {
+            <div class="card m-2" style="width: 18rem;">
+                <img class="card-img-top" src="@pizza.ImgUrl" alt="@pizza.Name">
+                <div class="card-body">
+                    <h4 class="card-title">@pizza.Name</h4>
+                    <h5 class="card-text">@pizza.Price €</h5>
+                    <p class="card-text">@pizza.Description</p>
+                    <a href="#" class="btn btn-primary">Maggiori Info</a>
+                </div>
+            </div>
+        }
+    </div>
+    
+   
 </div>
+
